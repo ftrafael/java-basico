@@ -1,7 +1,11 @@
 public class SmartTv {
+    
+    //variaveis a nível de classe.
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
+    
+    //novoCanal é uma variavel de metodo.
     public void mudarCanal(int novoCanal){
         canal = novoCanal;
         System.out.println("Mudando de canal para: " + canal);
